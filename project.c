@@ -20,7 +20,7 @@ void addBook()
     printf("\nEnter Book ID: ");
     scanf("%d", &b.id);
 
-    printf("Enter Book Name: ");
+    printf("Enter Book Name:")
     scanf(" %[^\n]", b.name);
 
     printf("Enter Author Name: ");
